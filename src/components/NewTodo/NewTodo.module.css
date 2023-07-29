@@ -1,0 +1,45 @@
+.form {
+    width: 35rem;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+.form label {
+    display: block;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+}
+
+.form input {
+    display: block;
+    width: 100%;
+    font: inherit;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: #f7f5ef;
+    border: none;
+    border-top: 2px solid #494844;
+    border-bottom: 2px solid #494844;
+    margin: 0.8rem auto;
+}
+
+.form button {
+    font: inherit;
+    font-size: 1.2rem;
+    background-color: #ff7f50;
+    border: 1px solid #ff7f50;
+    color: #ffffff;
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.form button:hover,
+.form button:active {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    color: #000000;
+}
